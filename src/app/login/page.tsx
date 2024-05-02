@@ -31,7 +31,7 @@ function LoginPage() {
     <div className="justify-center h-[calc(100vh-4rem)] flex items-center">
       <form onSubmit={handleSubmit} className="bg-neutral-950 px-8 py-10 w3/12">
         {error && <div className="bg-red-500 text-white p-2 mb-2">{error}</div>}
-        <h1 className="text-4-xl font-bold mb-7">Signin</h1>
+        <h1 className="text-4xl font-bold mb-7">Signin</h1>
 
         <input
           type="email"
@@ -45,7 +45,7 @@ function LoginPage() {
           name="password"
           className="bg-zinc-800 px-4 py-2 block mb-2 w-full"
         />
-        <button className="bg-yellow-500 px-4 py-2">Login</button>
+        <button className="bg-yellow-500 text-black px-4 py-2">Login</button>
       </form>
     </div>
   );
